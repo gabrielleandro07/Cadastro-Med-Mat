@@ -1,0 +1,30 @@
+CREATE DATABASE hospital;
+SHOW DATABASES;
+USE hospital;
+
+CREATE TABLE material(
+	codigo INT(11) NOT NULL AUTO_INCREMENT,
+	nome VARCHAR(45) NOT NULL,
+	quantidade INT(11) NOT NULL,
+	valor DOUBLE NOT NULL,
+	PRIMARY KEY(codigo)
+);
+
+SELECT * FROM material;
+
+CREATE TABLE medicamento(
+	codigo INT(11) NOT NULL AUTO_INCREMENT,
+	nome VARCHAR(45) NOT NULL,
+	quantidade INT(11) NOT NULL,
+	valor DOUBLE NOT NULL,
+	PRIMARY KEY(codigo)
+);
+
+SELECT * FROM medicamento;
+
+
+
+
+
+
+
